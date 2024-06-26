@@ -1,3 +1,5 @@
+import os 
+
 if not os.path.exists("file.txt"):
      with open("file.txt","w") as file:
           pass

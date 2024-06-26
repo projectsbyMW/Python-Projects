@@ -1,10 +1,14 @@
 # all the exe files
 *.exe
+*.spec
 
 # all the application files files 
-**/.build/*
-/.build/*
+**/build/*
+/build/*
 
-**/.dist/*
-/.dist/*
+**/dist/*
+/dist/*
+
+**/__pycache__/*
+/__pycache__/*
 

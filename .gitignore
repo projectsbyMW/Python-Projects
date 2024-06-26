@@ -1,0 +1,10 @@
+# all the exe files
+*.exe
+
+# all the application files files 
+**/.build/*
+/.build/*
+
+**/.dist/*
+/.dist/*
+

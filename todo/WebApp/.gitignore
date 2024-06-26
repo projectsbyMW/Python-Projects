@@ -1,0 +1,9 @@
+# all the unneeded files
+
+
+# all the application files files 
+**/myenv/*
+/myenv/*
+
+**/__pycache__/*
+/__pycache__/*

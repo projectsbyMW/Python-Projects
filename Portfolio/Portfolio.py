@@ -40,12 +40,12 @@ with col3:
     for n,i in df[:10].iterrows():
         sl.header(i["title"])
         sl.write(i["description"])
-        sl.image("images/" + i["image"], width= 300)
+        sl.image("Portfolio/images/" + i["image"], width= 300)
         sl.write(f"[Source Code] ({i['url']})" )
 
 with col4:
     for n,i in df[10:].iterrows():
         sl.header(i["title"])
         sl.write(i["description"])
-        sl.image("images/" + i["image"], width= 300)
+        sl.image("Portfolio/images/" + i["image"], width= 300)
         sl.write(f"[Source Code] ({i['url']})" )

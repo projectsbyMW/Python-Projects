@@ -4,8 +4,8 @@ def sendemail(message):
     host = "smtp.gmail.com"
     port = 465
 
-    username = USERNAME
-    password = PASSWORD
+    username = SE_USERNAME
+    password = SE_PASSWORD
 
     receiver = "madheshwaran63@gmail.com"
     context = ssl.create_default_context()

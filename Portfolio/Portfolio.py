@@ -6,7 +6,7 @@ sl.set_page_config(layout="wide")
 emptycol, col1, col2 = sl.columns([0.1,0.9,1.6])
 
 with col1:
-    sl.image("portimage.jpg")
+    sl.image("Portfolio/portimage.jpg")
 
 with col2:
     sl.title("Matheshwaran S")

@@ -33,7 +33,7 @@ with cole3:
 
 col3, col4 = sl.columns(2)
 
-df = pandas.read_csv("data.csv",sep=";")
+df = pandas.read_csv("Portfolio/data.csv",sep=";")
 print(df)
 
 with col3:

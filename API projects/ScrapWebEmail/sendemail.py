@@ -7,7 +7,7 @@ def sendemail(message):
     username = "madheshwaran63@gmail.com"
     password = "cijczluwekalanrx"
 
-    receiver = "madheshwaran64@gmail.com"
+    receiver = "madheshwaran63@gmail.com"
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL(host,port, context = context) as server:

@@ -1,0 +1,8 @@
+2024-07-23 19:10:24,648 [WARNING] The application https://www.appnotexists.com/ is down. The application probably doesn't exist or unavailable or not responding.
+2024-07-23 19:10:37,321 [WARNING] The application https://google.com/ is DOWN: HTTP response code 301
+2024-07-23 19:10:45,008 [INFO] The application https://www.google.com/ is UP.
+2024-07-23 19:10:54,833 [INFO] The application https://www.youtube.com/ is UP.
+2024-07-23 19:11:53,443 [WARNING] The application https://www.pselecsolutions.com/ is down. The application probably doesn't exist or unavailable or not responding.
+2024-07-23 19:12:18,809 [WARNING] The application http://pselecsolutions.com/ is DOWN: HTTP response code 301
+2024-07-23 19:12:31,503 [INFO] The application http://www.pselecsolutions.com/ is UP.
+2024-07-23 19:12:42,351 [WARNING] The application http://www.accuknox.com/ is DOWN: HTTP response code 301

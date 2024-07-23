@@ -6,7 +6,7 @@ sl.set_page_config(layout="wide")
 emptycol, col1, col2 = sl.columns([0.1,0.9,1.6])
 
 with col1:
-    sl.image("portimage.jpg")
+    sl.image("Portfolio/portimage.jpg")
 
 with col2:
     sl.title("Matheshwaran S")
@@ -33,19 +33,19 @@ with cole3:
 
 col3, col4 = sl.columns(2)
 
-df = pandas.read_csv("data.csv",sep=";")
+df = pandas.read_csv("Portfolio/data.csv",sep=";")
 print(df)
 
 with col3:
     for n,i in df[:10].iterrows():
         sl.header(i["title"])
         sl.write(i["description"])
-        sl.image("images/" + i["image"], width= 300)
+        sl.image("Portfolio/images/" + i["image"], width= 300)
         sl.write(f"[Source Code] ({i['url']})" )
 
 with col4:
     for n,i in df[10:].iterrows():
         sl.header(i["title"])
         sl.write(i["description"])
-        sl.image("images/" + i["image"], width= 300)
+        sl.image("Portfolio/images/" + i["image"], width= 300)
         sl.write(f"[Source Code] ({i['url']})" )

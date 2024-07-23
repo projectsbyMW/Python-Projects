@@ -1,13 +1,14 @@
 import smtplib, ssl
+import streamlit as st
 
 def sendemail(message):
     host = "smtp.gmail.com"
     port = 465
 
-    username = "madheshwaran63@gmail.com"
-    password = "cijczluwekalanrx"
+    username = st.secrets["SE_USERNAME"]
+    password = st.secrets["SE_PASSWORD"]
 
-    receiver = "madheshwaran64@gmail.com"
+    receiver = st.secrets["SE_USERNAME"]
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL(host,port, context = context) as server:

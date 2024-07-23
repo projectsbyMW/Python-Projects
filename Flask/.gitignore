@@ -1,0 +1,5 @@
+#All the txt files
+*.txt
+
+/data_small/*
+/static/*

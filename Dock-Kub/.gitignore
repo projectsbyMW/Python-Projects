@@ -1,0 +1,7 @@
+# all the exe files
+*.crt
+*.key
+
+# all the key files 
+**/keys/*
+/keys/*
